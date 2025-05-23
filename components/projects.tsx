@@ -35,7 +35,7 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
       id: "emodiary",
       title: "EmoDiary",
       description: "생성형 AI 기반 플레이리스트 및 일기 회고 추천 시스템",
-      role: "백엔드 개발",
+      role: "팀장",
       tech: ["Python", "OpenAI API", "Gradio"],
       period: "2024.09 - 2024.12",
     },
