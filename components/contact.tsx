@@ -64,8 +64,8 @@ export default function Contact({ isActive }: { isActive: boolean }) {
               </div>
               <div>
                 <p className="text-gray-500 text-sm">Email</p>
-                <a href="mailto:your-email@example.com" className="text-gray-800 hover:text-red-600 transition-colors">
-                  your-email@example.com
+                <a href="mailto:min7un3@gmail.com" className="text-gray-800 hover:text-red-600 transition-colors">
+                  min7un3@gmail.com
                 </a>
               </div>
             </div>
@@ -77,29 +77,12 @@ export default function Contact({ isActive }: { isActive: boolean }) {
               <div>
                 <p className="text-gray-500 text-sm">GitHub</p>
                 <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/jiminseon"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 hover:text-red-600 transition-colors"
                 >
-                  github.com/your-username
-                </a>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                <Linkedin className="text-gray-600" size={20} />
-              </div>
-              <div>
-                <p className="text-gray-500 text-sm">LinkedIn</p>
-                <a
-                  href="https://linkedin.com/in/your-profile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-800 hover:text-red-600 transition-colors"
-                >
-                  linkedin.com/in/your-profile
+                  github.com/jiminseon
                 </a>
               </div>
             </div>

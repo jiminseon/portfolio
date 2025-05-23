@@ -35,7 +35,7 @@ export default function SideNavigation({ activeSection, onNavigate }: SideNaviga
       </button>
 
       <button
-        onClick={() => window.open("https://github.com/your-username", "_blank")}
+        onClick={() => window.open("https://github.com/jiminseon", "_blank")}
         className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:shadow-xl transition-all duration-300 hover:scale-110 border border-gray-200"
         aria-label="GitHub profile"
       >

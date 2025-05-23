@@ -21,7 +21,7 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
       description: "OTT 시청물 기록 IOS 서비스",
       role: "백엔드 개발",
       tech: ["Spring Boot", "MySQL", "AWS"],
-      period: "2024.03 - 2024.06",
+      period: "2023.07 - 2023.08",
     },
     {
       id: "itemlier",
@@ -29,15 +29,15 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
       description: "인테리어 중고거래 웹 서비스",
       role: "풀스택 개발",
       tech: ["JSP", "Spring Boot", "Oracle"],
-      period: "2023.09 - 2023.12",
+      period: "2024.03 - 2024.06",
     },
     {
       id: "emodiary",
       title: "EmoDiary",
       description: "생성형 AI 기반 플레이리스트 및 일기 회고 추천 시스템",
       role: "백엔드 개발",
-      tech: ["Spring Boot", "AI API", "PostgreSQL"],
-      period: "2024.01 - 2024.02",
+      tech: ["Python", "OpenAI API", "Gradio"],
+      period: "2024.09 - 2024.12",
     },
   ]
 

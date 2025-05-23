@@ -24,31 +24,15 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       role: "백엔드 개발",
       responsibilities: [
         "RESTful API 설계 및 개발",
-        "사용자 인증 및 권한 관리 시스템 구현",
-        "콘텐츠 메타데이터 관리 및 검색 기능 개발",
-        "사용자 시청 기록 및 통계 처리 로직 구현",
-        "AWS 클라우드 인프라 구축 및 관리",
+        "CI/CD 자동화",
       ],
-      tech: ["Spring Boot", "MySQL", "AWS", "JPA", "Redis", "Docker"],
-      challenges: [
-        "다양한 OTT 플랫폼의 콘텐츠 메타데이터를 통합하고 관리하는 시스템 설계",
-        "대용량 사용자 시청 기록 데이터의 효율적인 처리 및 분석",
-        "실시간 추천 시스템 구현을 위한 성능 최적화",
-      ],
-      solutions: [
-        "마이크로서비스 아키텍처를 도입하여 각 기능별 모듈화 및 확장성 확보",
-        "Redis 캐싱을 통한 빈번한 조회 데이터 성능 최적화",
-        "AWS ECS를 활용한 컨테이너 기반 배포 및 관리 자동화",
-      ],
+      tech: ["Spring Boot", "MySQL", "AWS", "JPA"],
       results: [
-        "초기 출시 후 3개월 내 10,000명 이상의 사용자 확보",
-        "평균 사용자 세션 시간 15분으로 높은 사용자 참여도 달성",
-        "99.9% 이상의 서비스 가용성 유지",
+        "App store 배포"
       ],
-      period: "2024.03 - 2024.06",
+      period: "2023.07 - 2023.08",
       links: {
-        github: "https://github.com/username/myadd",
-        live: "https://myadd-app.com",
+        github: "https://github.com/my-ADD/myADD-server"
       },
     },
     itemlier: {
@@ -60,26 +44,15 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       responsibilities: [
         "프론트엔드 UI/UX 설계 및 구현",
         "백엔드 API 개발 및 데이터베이스 설계",
-        "실시간 채팅 시스템 구현",
-        "위치 기반 검색 기능 개발",
-        "결제 시스템 연동",
+        "Session 기반 Spring security를 이용한 로그인 구현"
       ],
-      tech: ["JSP", "Spring Boot", "Oracle", "jQuery", "Bootstrap", "MyBatis", "WebSocket"],
-      challenges: ["실시간 채팅 및 알림 시스템 구현", "대용량 이미지 처리 및 최적화", "위치 기반 검색 성능 개선"],
-      solutions: [
-        "WebSocket을 활용한 실시간 양방향 통신 구현",
-        "이미지 리사이징 및 압축 처리를 통한 로딩 속도 개선",
-        "공간 인덱싱을 활용한 위치 기반 검색 최적화",
-      ],
+      tech: ["JSP", "Spring Boot", "Oracle"],
       results: [
-        "월간 활성 사용자 5,000명 달성",
-        "일 평균 거래 건수 100건 이상 기록",
-        "사용자 만족도 조사에서 4.5/5.0 점수 획득",
+        "프로젝트 2등"
       ],
-      period: "2023.09 - 2023.12",
+      period: "2024.03 - 2024.06",
       links: {
-        github: "https://github.com/username/itemlier",
-        live: "https://itemlier.com",
+        github: "https://github.com/jiminseon/Itemrier_springBoot"
       },
     },
     emodiary: {
@@ -87,30 +60,18 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       description: "생성형 AI 기반 플레이리스트 및 일기 회고 추천 시스템",
       fullDescription:
         "EmoDiary는 사용자의 일기 내용을 분석하여 감정 상태를 파악하고, 그에 맞는 음악 플레이리스트를 추천해주는 서비스입니다. 또한 과거 일기를 기반으로 회고 포인트를 생성형 AI를 통해 제안하여 사용자의 자기 성찰을 돕습니다. 감정 분석, 음악 추천, 회고 생성 등 다양한 AI 기술이 적용되었습니다.",
-      role: "백엔드 개발",
+      role: "팀장",
       responsibilities: [
-        "감정 분석 AI 모델 연동 및 API 개발",
-        "음악 추천 알고리즘 설계 및 구현",
-        "생성형 AI를 활용한 회고 생성 시스템 개발",
-        "사용자 데이터 분석 및 개인화 로직 구현",
-        "외부 음악 스트리밍 서비스 API 연동",
+        "멜론 데이터 크롤링",
+        "감성 분석을 위해 BERT 모델 적용",
+        "개인화 로직 구현",
+        "Gradio를 이용해 플레이리스트 UI 구현",
       ],
-      tech: ["Spring Boot", "PostgreSQL", "AI API", "Python", "Docker", "Kafka"],
-      challenges: [
-        "텍스트 기반 감정 분석의 정확도 향상",
-        "개인화된 음악 추천 알고리즘 개발",
-        "대용량 텍스트 처리 및 AI 모델 응답 시간 최적화",
-      ],
-      solutions: [
-        "다양한 NLP 모델을 앙상블하여 감정 분석 정확도 향상",
-        "협업 필터링과 콘텐츠 기반 필터링을 결합한 하이브리드 추천 시스템 구현",
-        "비동기 처리 및 캐싱을 통한 응답 시간 개선",
-      ],
+      tech: ["AI API", "Python"],
       results: ["감정 분석 정확도 85% 달성", "사용자 음악 추천 만족도 78% 기록", "일평균 작성 일기 수 2배 증가"],
-      period: "2024.01 - 2024.02",
+      period: "2024.09 - 2024.12",
       links: {
-        github: "https://github.com/username/emodiary",
-        live: "https://emodiary.app",
+        github: "https://github.com/jiminseon/AI_RecommenderSystem"
       },
     },
   }
@@ -181,15 +142,6 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
                 <Github size={16} />
                 <span>GitHub</span>
               </a>
-              <a
-                href={project.links.live}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
-              >
-                <ExternalLink size={16} />
-                <span>Live Demo</span>
-              </a>
             </div>
           </motion.div>
 
@@ -245,36 +197,6 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
               </div>
             </motion.div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="mb-8"
-          >
-            <div className="flex items-center gap-2 mb-4">
-              <Server size={20} className="text-red-500" />
-              <h2 className="text-xl text-gray-800">문제 해결</h2>
-            </div>
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-gray-800 mb-2 font-medium">도전 과제</h3>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  {project.challenges.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-gray-800 mb-2 font-medium">해결 방안</h3>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  {project.solutions.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
