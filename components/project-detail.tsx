@@ -68,7 +68,7 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
         "Gradio를 이용해 플레이리스트 UI 구현",
       ],
       tech: ["AI API", "Python"],
-      results: ["감정 분석 정확도 85% 달성", "사용자 음악 추천 만족도 78% 기록", "일평균 작성 일기 수 2배 증가"],
+      results: ["32건의 설문조사 결과 대부분이 4점 이상 기록", "교내 협동학습 경진대회 금상"],
       period: "2024.09 - 2024.12",
       links: {
         github: "https://github.com/jiminseon/AI_RecommenderSystem"

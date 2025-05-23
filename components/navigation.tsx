@@ -15,7 +15,7 @@ export default function Navigation({ isActive, onNavigate }: NavigationProps) {
 
   const navItems = [
     { title: "Projects", id: "projects", description: "프로젝트" },
-    { title: "Experience", id: "experience", description: "경력" },
+    { title: "Experience", id: "experience", description: "경험" },
     { title: "Contact", id: "contact", description: "연락처" },
   ]
 
