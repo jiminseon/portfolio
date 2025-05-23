@@ -18,7 +18,6 @@ export default function AboutMe({ isActive }: { isActive: boolean }) {
   const backendSkills = [
     { name: "Java", icon: "/icons/java.svg" },
     { name: "Spring Boot", icon: "/icons/spring.svg" },
-    { name: "Node.js", icon: "/icons/nodejs.svg" },
     { name: "MySQL", icon: "/icons/mysql.svg" },
   ]
 

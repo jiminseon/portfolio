@@ -22,6 +22,7 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
       role: "백엔드 개발",
       tech: ["Spring Boot", "MySQL", "AWS"],
       period: "2023.07 - 2023.08",
+      image: "/icons/myadd.png"
     },
     {
       id: "itemlier",
@@ -38,6 +39,7 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
       role: "팀장",
       tech: ["Python", "OpenAI API", "Gradio"],
       period: "2024.09 - 2024.12",
+      image: "/icons/emodiary.png"
     },
   ]
 
@@ -65,9 +67,10 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
             transition={{ duration: 0.8, delay: index * 0.1 }}
             className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 border border-gray-200 group"
           >
-            <div className="aspect-video bg-gray-100 relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-                <div className="text-gray-400 text-sm">Project Image</div>
+            <div className="aspect-video bg-gray-100 relative overflow-hidden">          
+              
+              <div className="absolute inset-0 flex items-center justify-center">
+                <img src={project.image} />
               </div>
             </div>
 
@@ -77,9 +80,6 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
                 <div className="flex gap-2">
                   <button className="p-1.5 rounded-full hover:bg-gray-100 transition-colors">
                     <Github size={16} className="text-gray-600" />
-                  </button>
-                  <button className="p-1.5 rounded-full hover:bg-gray-100 transition-colors">
-                    <ExternalLink size={16} className="text-gray-600" />
                   </button>
                 </div>
               </div>
