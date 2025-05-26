@@ -45,7 +45,7 @@ export default function AboutMe({ isActive }: { isActive: boolean }) {
         initial={{ opacity: 0, y: 30 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
         transition={{ duration: 0.8 }}
-        className="bg-gray-50 rounded-lg p-8 mb-16 border border-gray-200"
+        className="bg-gray-50 rounded-lg p-8 mb-32 border border-gray-200"
       >
         <h3 className="text-2xl font-light text-gray-800 mb-6">Interview</h3>
 
@@ -77,7 +77,10 @@ export default function AboutMe({ isActive }: { isActive: boolean }) {
         className="mb-20"
       >
         <h3 className="text-3xl font-light text-gray-800 mb-5 text-center">Skill & Tools</h3>
-        <h4 className="text-xl font-light text-gray-800 mb-12 text-center">아래 기술을 사용할 수 있습니다.</h4>
+        <p className="text-gray-600 mb-20  text-center">
+        아래 기술을 사용할 수 있습니다.
+        </p>
+        
         <div className="space-y-12">
           <div>
             <h4 className="text-xl text-gray-800 mb-6 pl-2">Skills</h4>

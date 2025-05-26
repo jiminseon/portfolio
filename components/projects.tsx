@@ -56,6 +56,9 @@ export default function Projects({ isActive, onProjectSelect }: ProjectsProps) {
         transition={{ duration: 0.8 }}
       >
         <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-4">Projects</h2>
+        <p className="text-gray-600 mb-20  text-center">
+        프로젝트의 세부 사항을 확인해보세요.
+        </p>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

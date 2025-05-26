@@ -89,7 +89,7 @@ export default function Contact({ isActive }: { isActive: boolean }) {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
           transition={{ duration: 0.8 }}
@@ -150,7 +150,7 @@ export default function Contact({ isActive }: { isActive: boolean }) {
               <Send size={16} />
             </button>
           </form>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   )

@@ -22,19 +22,19 @@ export default function Navigation({ isActive, onNavigate }: NavigationProps) {
   return (
     <div
       ref={ref}
-      className="container mx-auto px-4 max-w-4xl flex items-center justify-center"
+      className="container mx-auto px-4 max-w-6xl flex items-center justify-center"
       style={{ opacity: isActive ? 1 : 0.3, transition: "opacity 0.8s ease" }}
     >
       <motion.div
         className="w-full"
-        initial={{ opacity: 0, y: 30 }}
-        animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 100 }}
+        animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
         transition={{ duration: 0.8 }}
       >
         <motion.div
           className="text-center mb-12"
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.5 }}
         >
           <p className="text-gray-600 text-lg">포트폴리오를 통해 저의 프로젝트와 경험을 확인하실 수 있습니다.</p>

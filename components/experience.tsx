@@ -25,7 +25,7 @@ export default function Experience({ isActive }: { isActive: boolean }) {
       title: "UMC 앱/웹 런칭 동아리 5기 Web 파트장",
       date: "2023.09 – 2024.02",
       type: "활동",
-      description: "웹 개발 파트 리더십 및 프로젝트 관리",
+      description: "웹 개발 파트 리더십 및 팀원 관리",
     },
     {
       title: "UMC 앱/웹 런칭 동아리 4기 SpringBoot 파트",
@@ -60,6 +60,9 @@ export default function Experience({ isActive }: { isActive: boolean }) {
         transition={{ duration: 0.8 }}
       >
         <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-4">Experience</h2>
+        <p className="text-gray-600 mb-20  text-center">
+        다양한 프로젝트를 통해 경험을 쌓고 있습니다.
+        </p>
       </motion.div>
 
       <div className="relative">

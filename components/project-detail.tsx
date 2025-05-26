@@ -34,6 +34,7 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       links: {
         github: "https://github.com/my-ADD/myADD-server"
       },
+      image: "/icons/myadd.png",
     },
     itemlier: {
       title: "잇템리어",
@@ -73,6 +74,7 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       links: {
         github: "https://github.com/jiminseon/AI_RecommenderSystem"
       },
+      image: "/icons/emodiary.png",
     },
   }
 
@@ -117,7 +119,7 @@ export default function ProjectDetail({ isActive, projectId, onBack }: ProjectDe
       <div className="bg-white rounded-lg overflow-hidden shadow-xl border border-gray-200">
         <div className="aspect-video bg-gray-100 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-            <div className="text-gray-400 text-lg">Project Screenshot</div>
+          <img src={project.image} />
           </div>
         </div>
 
